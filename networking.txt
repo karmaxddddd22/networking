@@ -1,0 +1,138 @@
+networking, the threats and bets
+
+networking is how all devices talk to each other, networking is used everywhere even in the real world.
+
+networkings purpose is transmitting, exchanging, or sharing data and resources.
+its the same as the real world, when you talk to someone you are giving info which they take in.
+networking types below.
+
+LAN (local area network): A LAN connects computers over a relatively short distance, allowing them to share data,
+ files, and resources. For example, a LAN may connect all the computers in an office building, school, or hospital.
+Typically, LANs are privately owned and managed.
+
+WLAN (wireless local area network): A WLAN is just like a LAN but connections between devices on the network are
+made wirelessly.
+
+WAN (wide area network): As the name implies, 
+a WAN connects computers over a wide area, such as from region to region or even continent to continent. 
+The internet is the largest WAN, connecting billions of computers worldwide. You will typically see collective or 
+distributed ownership models for WAN management.
+
+MAN (metropolitan area network): MANs are typically larger than LANs but smaller than WANs. 
+Cities and government entities typically own and manage MANs.
+
+PAN (personal area network): A PAN serves one person. For example,
+ if you have an iPhone and a Mac, it’s very likely you’ve set up a PAN that shares and syncs content—text messages,
+ emails, photos, and more—across both devices.
+
+SAN (storage area network): A SAN is a specialized network that provides access to block-level storage—shared network or
+ cloud storage that, to the user, looks and works like a storage drive that’s physically attached to a computer.
+
+CAN (campus area network): A CAN is also known as a corporate area network. A CAN is larger than a LAN but smaller than a WAN.
+ CANs serve sites such as colleges, universities, and business campuses.
+
+VPN (virtual private network): A VPN is a secure, point-to-point connection between two network end points
+ A VPN establishes an encrypted channel that keeps a user’s identity and access credentials,
+or process should receive specific messages.
+and the IP address of the destination device.
+ as well as any data transferred, inaccessible to hackers (sometimes).
+
+IP address: An IP address is a unique number assigned to every device connected to 
+a network that uses the Internet Protocol for communication. 
+Each IP address identifies the device’s host network and the location of the device on the host network.
+ When one device sends data to another, 
+the data includes a ‘header’ that includes the IP address of the sending device 
+
+Ports: A port identifies a specific connection between network devices.
+ Each port is identified by a number. 
+If you think of an IP address as comparable to the address of a hotel, 
+then ports are the suites or room numbers within that hotel. 
+Computers use port numbers to determine which application, service,
+common types of ports are 80 http 443 https 22 ssh 53 domain name
+
+Packets: small bytes of data used to tranfer data, in small sizes
+
+Internet protocol suite
+BGP.
+DHCP(v6)
+DNS.
+FTP.
+HTTP.
+HTTPS.
+IMAP.
+LDAP.
+----------------------------------------------------------------------------------
+
+Common Network Security Threats.
+
+Malware
+Viruses
+Spyware
+Adware
+Trojan horses
+Worms
+Phishing
+Spear phishing
+Wi-Fi attacks
+Denial of service (DOS) attacks
+Distributed Denial of Service (DDOS) attacks.
+Unauthorized access.
+Man in the middle attacks.
+Code and SQL injection attacks.
+Privilege escalation.
+Insider threats.
+
+malware, usally the purpose of malware is too troll, take control, or use to make money one way or another.
+viruses are the same as malware.
+
+spyware has the purpose of capturing infomation that could be used for black mail or extortation. 
+
+adware is used to make a company money by spamming you with ads.
+
+trojan horses is a type of threat the purpose is to hide a bad thing (could be malware could be anything bad),
+and make it seem like a good thing.
+
+worms are a type of malware that spread through networks.
+
+phishing is a social engineering attack, with the purpose of getting login infomation.
+spear fishing is the same thing but to more then 1 person.
+
+DOS attacks, a dos attack occurs when 1 computer sends out a bunch of request to another computer, website.
+DDOS attacks, a ddos attack occurs when more then 1 computer spams request to another computer, website
+via botnet (botnet is a type of malware).
+
+
+Unauthorized access
+Unauthorized access refers to attackers accessing a network without receiving permission. 
+Among the causes of unauthorized access attacks are weak passwords, 
+lacking protection against social engineering, previously compromised accounts, and insider threats.
+
+Man in the middle attacks
+A man in the middle attack involves attackers intercepting traffic, either between your network and external sites or within your network. 
+If communication protocols are not secured or attackers find a way to circumvent that security, 
+they can steal data that is being transmitted, obtain user credentials and hijack their sessions.
+
+ Code and SQL injection attacks
+Many websites accept user inputs and fail to validate and sanitize those inputs. 
+Attackers can then fill out a form or make an API call, 
+passing malicious code instead of the expected data values. 
+The code is executed on the server and allows attackers to compromise it.
+
+Privilege escalation
+Once attackers penetrate your network, they can use privilege escalation to expand their reach. 
+Horizontal privilege escalation involves attackers gaining access to additional, adjacent systems, and 
+vertical escalation means attackers gain a higher level of privileges for the same systems.
+
+Insider threats
+A network is especially vulnerable to malicious insiders, 
+who already have privileged access to organizational systems. 
+Insider threats can be difficult to detect and protect against, 
+because insiders do not need to penetrate the network in order to do harm. 
+New technologies like User and Even Behavioral Analytics (UEBA) can help identify suspicious or 
+anomalous behavior by internal users, which can help identify insider attacks.
+
+
+
+
+
+ 
